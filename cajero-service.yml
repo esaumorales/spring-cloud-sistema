@@ -1,1 +1,3 @@
-
+server:
+    port: $(PORT:8080)
+message: Configuracion de Cajero en el servirdor levantado!
