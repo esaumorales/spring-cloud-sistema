@@ -6,10 +6,10 @@ server:
 #    serviceurl: defaultZone=http://localhost:8850/eureka/
 eureka:
   client:
-    register-whit-eureka:    true
+    register-with-eureka:    true
     #fetch-registry: false
     serviceurl:
-    defaultZone: http://localhost:8850/eureka/
+      defaultZone: http://localhost:8850/eureka/
 message: Configuracion de Customer en el servidor levantado!
 spring:
   datasource:
