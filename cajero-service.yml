@@ -1,4 +1,4 @@
-server:
+    server:
     port: ${PORT:8863}
 #eureka:
 #  client:
@@ -9,7 +9,7 @@ eureka:
     register-whit-eureka:    true
     #fetch-registry: false
     serviceurl:
-    defaultZone: http://localhost:8850/eureka/
+      defaultZone: http://localhost:8850/eureka/
 message: Configuracion de Cajero en el servidor levantado!
 spring:
   datasource:
