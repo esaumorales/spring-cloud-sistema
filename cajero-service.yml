@@ -6,7 +6,7 @@
 #    serviceurl: defaultZone=http://localhost:8850/eureka/
 eureka:
   client:
-    register-whit-eureka:    true
+    register-whith-eureka:    true
     #fetch-registry: false
     serviceurl:
       defaultZone: http://localhost:8850/eureka/
